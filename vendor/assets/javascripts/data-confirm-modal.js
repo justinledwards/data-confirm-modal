@@ -53,7 +53,7 @@
     var id = 'confirm-modal-' + String(Math.random()).slice(2, -1);
 
     var modal = $(
-      '<div id="'+id+'" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="'+id+'Label" aria-hidden="true">' +
+      '<div id="'+id+'" class="modal fade">' +
         '<div class="modal-header">' +
           '<button class="close" data-dismiss="modal" aria-hidden="true">×</button>' +
           '<h3 id="'+id+'Label"></h3> ' +
